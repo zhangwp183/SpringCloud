@@ -1,10 +1,10 @@
-package com.sinosoft.demo;
+package com.sinosoft;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class ActiveMqConsumerApplicationTests {
 
     @Test
     void contextLoads() {

@@ -16,7 +16,7 @@ public class MsgListenter {
             TextMessage textMessage=(TextMessage)message;
             try {
                 System.out.println("接受消息"+textMessage.getText());
-               // textMessage.acknowledge(); 手动确认
+               // textMessage.acknowledge();   手动确认
             } catch (JMSException e) {
                 e.printStackTrace();
             }
